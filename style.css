@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: sticky;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul div{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+}
+span{
+    color: rgb(241, 6, 135);
+}
+
+#main{
+    padding-left: 8em;
+    background-color: rgba(206, 202, 202, 0.281);
+    padding-top: 4em;
+}
+#main p{
+    font-size: 3em;
+    margin-right: 15em;
+    letter-spacing: 1px;
+}
+#span1{
+    color: rgb(22, 22, 92);
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+#span2{
+    color: rgb(29, 145, 218);
+    font-weight: bolder;
+}
+
+#p{
+    padding: 2em;
+    padding-left: 1px;
+    padding-top: 12px;
+    font-size: small;
+}
+img{
+    height: 20em;
+    width: 15em;
+    margin-left: 60rem;
+    margin-top: -50em;
+}
+.pic2{
+    height: 20em;
+    width: 15em;
+    margin-left: 50em;
+    margin-top: -45em;
+    padding-top: -1em;
+}
+
+#professor{
+    height: 30em;
+    width: 25em;
+    margin-left: 5em;
+    margin-top: 3em;
+    border: solid 1px #fff;
+    border-radius: 40%;
+    box-shadow: 0px 4px 10px rgba(15, 14, 14, 0.2) ;
+    background-color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -21em;
+    margin-left: 8em;
+}
+  
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10em;
+    padding: 10px;
+}
+  
+.stat-item {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px dotted rgb(29, 145, 218);
+    border-radius: 8px;
+    width: 10%;
+    margin-left: 25em;
+    width: 7em;
+    height: 6em;
+}
+  
+.stat-item h3 {
+    margin: 0;
+    font-size: 2em;
+    color: rgb(29, 145, 218);
+}
+  
+.stat-item p {
+    margin: 5px 0 0;
+    font-size: x-small;
+    color: rgb(29, 145, 218);
+}
+  
+.content {
+    margin-left: 35em;
+    margin-top: -29em;
+    padding: 20px;
+    border-radius: 8px;
+}
+  
+.content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.content h1 span {
+    color: rgb(241, 6, 135);
+}
+  
+.content p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+  
+.content a {
+    text-decoration: none;
+}
+  
+.content a:hover {
+    text-decoration: underline;
+}
+  
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 2em;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(29, 145, 218);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color: rgb(29, 145, 218);
+}
+.why{
+    background-color: rgba(206, 202, 202, 0.281);
+}
+#work{
+    margin-top: 4em;
+    margin-left: 3em;
+    font-size: 2em;
+}
+.para{
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-right: 38em;
+    
+}
+ #cycle{
+    width: 30em;
+    height: 30em;
+    margin-left: 52em;
+    margin-top: -40em;
+  }
+
+  /* benefits */
+.contains {
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-left: 8em;
+    margin-top: 8em;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+  
+.benefits-section {
+    border: 2px dashed #000;
+    border-radius: 5%;
+    padding: 20px;
+    position: relative;
+}
+.benefits-header{
+    position: absolute;
+    top: 70%;
+    left: -20px;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: left center;
+} 
+.benefits-header h1 {
+    font-size: 5.5em;
+    margin: 0;
+    padding: 0;
+    margin-right: 35em;
+}
+  
+.benefits-content p {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+  
+.benefit-item {
+    margin-bottom: 20px;
+}
+  
+.benefit-item h3 {
+    font-size: 1.2em;
+    color: rgb(29, 145, 218);
+    margin-bottom: 10px;
+}
+  
+.benefit-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+.cont {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: #e53397;
+}
+
+.subtitle {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.last_line {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 40px;
+}
+
+.last_line small {
+    display: block;
+    text-align: left;
+}
+
+head h1{
+    color: rgb(22, 22, 92);
+    text-align: center;
+}
+
+.instructions {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.instructions h2 {
+    color: #00a2d3;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.instructions ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.faq {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.faq h2 {
+    color: #ff00a0;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+}
+
+.faq div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    line-height: 8px;
+    color: #333;
+    cursor: pointer;
+}
+
+.faq ul li:hover {
+    color: #007bff;
+}
