@@ -428,3 +428,42 @@ head h1{
     font-size: 14px;
     color: gray;
 }
+
+@media (max-width: 768px) {
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 90%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+
+    .main-title, .one-formulation-title {
+        font-size: 2rem;
+    }
+
+    .vertical-text {
+        position: relative;
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .benefits-container {
+        margin-left: 0;
+    }
+}
