@@ -347,3 +347,84 @@ head h1{
 .faq ul li:hover {
     color: #007bff;
 }
+
+.form-container {
+    margin: 50px auto;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  #consent{
+    width:max-content !important;
+  }
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-header label {
+    font-size: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .consent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .consent input {
+    margin-right: 10px;
+  }
+  
+  .consent a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .consent a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}

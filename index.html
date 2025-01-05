@@ -249,19 +249,38 @@
             
         </section>
         <footer>
-            <form>
-                <h3>Say Hi</h3>
-                <input type="text" placeholder="Name" name="name" required>
-                <input type="email" placeholder="Email" name="email" required>
-                <textarea placeholder="Message" name="message" required></textarea>
-                <div>
-                    <input type="checkbox" id="consent" name="consent" required>
-                    <label for="consent">I consent to the processing of personal data after reading the Privacy Policy</label>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-            <p>EOS2021 S.R.L. Via Nuoro, 16-00040 Ardea (Roma) P.iva: 02102651003</p>
-        </footer>
+            <!-- contact form -->
+    <div class="form-container">
+      <form id="contactForm">
+        
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Name">
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required placeholder="Email">
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" required placeholder="Message"></textarea>
+        </div>
+  
+        <div class="form-group consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">
+            I consent to the processing of personal data after reading the <a href="#" target="_blank">Privacy Policy</a>
+          </label>
+        </div>
+  
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+  
+      <footer>
+        <p>EOS2021 S.R.L. Via Nuoro, 16 – 00040 Ardea (Roma) P.Iva: 02102651003</p>
+      </footer>
 
 
 
